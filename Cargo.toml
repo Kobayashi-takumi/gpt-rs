@@ -7,7 +7,7 @@ description = "This crate provides a simple way to interact with the OpenAI API"
 license = "MIT"
 readme = "README.md"
 repository = "https://github.com/Kobayashi-takumi/gpt-rs"
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+homepage = "https://github.com/Kobayashi-takumi/gpt-rs"
 
 [dependencies]
 anyhow = "1.0.72"
