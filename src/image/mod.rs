@@ -55,7 +55,7 @@ impl CreateImage {
     pub fn builder() -> CreateImageBuilder {
         Default::default()
     }
-    async fn execute(&self, client: &Client) -> Result<CreateImageResponse> {
+    pub async fn execute(&self, client: &Client) -> Result<CreateImageResponse> {
         let res = client
             .post(&self.entry_point.path(), self.request.clone())
             .await?;

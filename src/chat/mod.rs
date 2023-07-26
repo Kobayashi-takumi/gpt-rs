@@ -66,7 +66,7 @@ impl Chat {
     pub fn builder() -> ChatBuilder {
         Default::default()
     }
-    async fn execute(&self, client: &Client) -> Result<CompletionResponse> {
+    pub async fn execute(&self, client: &Client) -> Result<CompletionResponse> {
         let request = CompletionRequest {
             model: self.config.model.as_ref().to_string(),
             temperature: self.config.temperature,
