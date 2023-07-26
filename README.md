@@ -8,7 +8,7 @@ This asynchronous example uses Tokio and enables some optional features, so your
 
 ```toml
 [dependencies]
-gpt = { git="https://github.com/Kobayashi-takumi/gpt-rs" }
+gpt = "0.1"
 tokio = { version = "1", features = ["full"] }
 ```
 
