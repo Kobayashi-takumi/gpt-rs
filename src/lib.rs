@@ -1,5 +1,6 @@
-pub mod chat;
-pub mod client;
-pub mod entry_point;
+mod chat;
+mod client;
+mod entry_point;
 mod error;
-pub mod image;
+mod image;
+pub mod prelude;

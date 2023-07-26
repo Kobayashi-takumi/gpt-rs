@@ -1,11 +1,9 @@
 pub mod model;
 
-use crate::image::model::CreateImageResponseDto;
-
 use super::client::Client;
 use super::entry_point::{EntryPoint, Function, Version};
 use anyhow::Result;
-use model::{CreateImageRequest, CreateImageResponse, Url, B64};
+use model::{CreateImageRequest, CreateImageResponse, CreateImageResponseDto, Url, B64};
 
 #[derive(Debug, Default, Clone, PartialEq)]
 pub struct CreateImageBuilder {
@@ -70,7 +68,6 @@ impl CreateImage {
                 res.into()
             }
         };
-        println!("{:?}", res);
         Ok(res)
     }
 }
