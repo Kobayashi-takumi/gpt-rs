@@ -1,5 +1,5 @@
 [package]
-name = "gpt"
+name = "gpt-rs"
 version = "0.1.0"
 authors = ["Takumi Kobayashi <takumi.kobayashi.development@gmail.com>"]
 edition = "2021"
